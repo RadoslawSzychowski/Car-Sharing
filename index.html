@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,700;6..12,800&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,700;6..12,800&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <title>Car Sharing</title>
+</head>
+<body>
+    <header class="header">
+        <div class="stickyheader container"> <!--1-->
+<div class="stickyheader__left"> <!--2-->
+         <img class="logo" src="images/Icon Logo Normal.svg">
+            <div class="stickyheader__title"><span>Car</span> Sharing</div> <!--3-->
+            </div> <!--2-->
+            <nav class="navi">
+                <ul>
+                    <li>Home</li>
+                    <li>Blog</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </div> <!--1-->
+        <div class="container header__container">
+            <h1 class="title">Car Sharing</h1>
+            <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <div class="header__buttons">
+            <button class="button button__big button_red"><p>Share a car</p></button>
+            <button class="button button__big button_white"><p>Key Features</p></button>
+            </div>
+        </div>
+    </header>
+    <main class="container blog">
+        <div class="arrow">
+            <img class="arrow__icon" src="images/Icon Arrow Down.svg">
+        </div>
+        <p class="blog__title"><span>Blog</span></p>
+        <div class="blogarticles">
+        <article> 
+            <img class="blog__img" src="images/Blogphoto1.png">
+            <div class="blogarticles__title">Lorem Ipsum Sit Dolor</div>
+            <div class="blogarticles__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            <button class="button regular__button">Read More</button> <!--article 1-->
+        </article>
+              <article> 
+            <img class="blog__img" src="images/Blogphoto2.png">
+            <div class="blogarticles__title">Lorem Ipsum Sit Dolor</div>
+            <div class="blogarticles__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            <button class="button regular__button">Read More</button> <!--article 2-->
+        </article>
+              <article> 
+            <img class="blog__img" src="images/Blogphoto3.png">
+            <div class="blogarticles__title">Lorem Ipsum Sit Dolor</div>
+            <div class="blogarticles__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            <button class="button regular__button">Read More</button> <!-- article 3 -->
+        </article>
+        </div>
+    </main>
+    <main class="service">
+             <p class="service__title"><span>Service</span></p>
+        <div class="servicearticles container">
+            <article> 
+            <img class="servicearticles__img" src="images/Circlemini1.png">
+            <div class="servicearticles__title">Lorem Ipsum Sit Dolor</div>
+            <div class="servicearticles__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</div>
+             <div class="btn__center"><button class="button regular__button">Read More</button></div>
+            </article> <!-- 1 -->
+            <article> 
+            <img class="servicearticles__img" src="images/Circlemini2.png">
+            <div class="servicearticles__title">Lorem Ipsum Sit Dolor</div>
+            <div class="servicearticles__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</div>
+            <div class="btn__center"><button class="button regular__button">Read More</button></div>
+            </article><!-- 2 -->
+            <article> 
+            <img class="servicearticles__img" src="images/Circlemini3.png">
+            <div class="servicearticles__title">Lorem Ipsum Sit Dolor</div>
+            <div class="servicearticles__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</div>
+            <div class="btn__center"><button class="button regular__button">Read More</button></div>
+            </article><!-- 3 -->
+            <article> 
+            <img class="servicearticles__img" src="images/Circlemini4.png">
+            <div class="servicearticles__title">Lorem Ipsum Sit Dolor</div>
+            <div class="servicearticles__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</div>
+             <div class="btn__center"><button class="button regular__button">Read More</button></div>
+            </article><!-- 4 -->
+        </div>
+    </main>
+    <main class="contact">
+          <p class="contact__title"><span>Contact</span></p>
+        <div class="container contact__display">
+        <img class="contact__img" src="images/Contact Photo.png">
+        <!-- --------------------- -->
+         <form action="#" method="post">
+        <input type="text" id="name" name="name" placeholder="Type your name" required>
+
+        <input type="email" id="email" name="email" placeholder="Type your email" required>
+
+        <textarea id="message" name="message" placeholder="Type your message" required></textarea>
+
+        <label>
+            <div class="checkbox__info__position"></div>
+            <input type="checkbox" name="consent" required>
+            <span>
+            I hereby give consent for my personal data included in my application to be processed for the purposes of
+            the recruitment process under the European Parliament’s and Council of the European Union Regulation on the
+            Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the
+            free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive).
+            </span>
+        </label>
+
+        <div class="contact__button__position"><button class="button contact__button">Send</button>
+            </div>
+    </form>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer__logo__name">
+        <img src="images/Logo Footer.svg">
+        <p><span>Car</span>Sharing</p>
+        </div>
+        <div class="lists">
+        <nav class="navi__footer">
+            <ul>
+                <li>Home Page</li>
+                <li>About Us</li>
+                <li>Gallery</li>
+                <li>Share Regulation</li>
+            </ul>
+        </nav>
+        <nav class="navi__footer2">
+              <ul>
+                <li>Price</li>
+                <li>Our Fleet</li>
+                <li>Our Clients</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        </div>
+        <div class="relative_div">
+        <div class="copyright">Copyright © Coders Lab</div>
+        </div>
+</div>
+    </footer>
+</body>
+</html>
